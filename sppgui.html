@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WATCHDAG</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">	
+	<link rel="stylesheet" type="text/css" href="app-lib/css/guistyle.css">
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="output">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="sidenav">
+				<div class="app-name">
+					<h3>Watch dog</h3>
+				</div>
+				<nav class="nav">
+					<ul>
+						<li><a href="#">Dashboard</a></li>
+						<li><a href="#">Camera</a></li>
+						<li><a href="#">Report</a></li>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#">Info</a></li>
+					</ul>
+				</nav>
+
+
+				<div class="app-sts">
+						<span class="app-heading">Application Status</span>
+					<ul>
+						<li>
+							<span class="app-arg">IP Address: </span><span class="app-val">192.168.1.0</span> 
+						</li>
+						<li>
+							<span class="app-arg">System Time: </span><span class="app-val">22:00</span> 
+						</li>
+						<li>
+							<span class="app-arg">Active Camera: </span><span class="app-val">3/4</span> 
+						</li>
+						<li>
+							<span class="app-arg">Surveillance Status </span><span class="app-val">Normal</span> 
+						</li>
+					</ul>
+				</div>
+
+					<img class="app-qrcode" src="app-lib/media/m.png">
+
+				
+				</div>
+			</div>
+
+		<div class="col-md-9">
+			<div class="dashboard-con">
+				<h3>Surveillance Unit</h3>
+				<div class="cam-block">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="camcard camsys">
+								<div class="cam-info">
+									<span class="cam-info-heading">System One</span>
+									<div class="vdo-box">
+										<iframe width="100%" height="100%"
+											src="http://192.168.43.127:8081/">
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="camcard camsys">
+								<div class="cam-info">
+									<span class="cam-info-heading">System Two</span>
+									<div class="vdo-box">
+										<iframe width="420" height="315"
+											src="http://192.168.43.127:8082/">
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="camcard camsys"style="
+							animation: attention 0.8s infinite;">
+								<div class="cam-info">
+									<span class="cam-info-heading">System Three</span>
+									<div class="vdo-box">
+										<iframe width="420" height="315"
+											src="http://192.168.43.127:8083/">
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>						
+						<div class="col-md-6">
+							<div class="camcard camsys">
+								<div class="cam-info">
+									<span class="cam-info-heading">System Four</span>
+									<div class="vdo-box">
+										<video id="myVideo" width="480" autoplay>
+											<source src="videoc.mp4" type="video/mp4">
+											Your browser does not support HTML5 video.
+										  </video>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1">
+			<div class="name-line">
+				<span class="wtachdog-name">WATCHDOG</span>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>

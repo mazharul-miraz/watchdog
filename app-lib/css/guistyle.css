@@ -1,0 +1,144 @@
+
+body{
+	background: #EBEBEB
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.sidenav{
+	background: #fff;
+}
+
+.app-name{
+background: #1C5D3B;
+color: #fff;
+text-align: center;
+padding: 10px 0px;
+}
+
+
+.sidenav-block{
+	background: #F5F9FC;
+	box-sizing: border-box;
+	box-shadow:inset -1px 0 0 rgba(0, 0, 0, .1);
+	width: 100%; height: 100%; overflow: auto;
+}
+
+.sidenav ul li{
+    list-style: none;
+    margin: 15px auto;
+    text-align: left;
+}
+.sidenav ul li a { 
+	
+	text-decoration: none;
+	font-size: 12px;
+	color: #0eb15c;
+}
+
+.app-sts ul {
+    margin: 0px -5px;
+}.app-sts ul li{
+	margin: 0px auto;
+} 
+ 
+
+.app-sts .app-heading {
+    margin: 0 30px 10px 35px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.app-sts{
+    padding: 10px 0;
+	font-size: 13px;
+	color: #666;
+}
+.app-val{
+	font-size: 13px;
+    color: #333;
+}
+.dashboard-con h3 {
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.dashboard-con {
+    background: #fff;
+    padding: 10px 15px;
+}
+
+.camcard {
+	background: #000;
+    height: 300px;
+    margin:0px 0px 35px 0px;
+    box-sizing: border-box;
+    border-radius: 1px;
+	border: 5px solid #0B4325;
+	cursor: pointer;
+	transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+	overflow: hidden;
+}
+
+
+iframe{
+    border: 0;
+}
+
+.camcard:hover{
+	border: 5px solid #508E6C;
+	transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+}
+
+
+.camcard .cam-info {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.vdo-box{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@keyframes attention {
+    0%   {  border: System Three
+        System Three
+        5px solid #2500E0;}
+    50%  {  border: 5px solid #E31E33;}
+    100%  {  border: 5px solid #2500E0;}
+    transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+  }
+
+.name-line{
+	background-color: #fff;
+	height: 100%;	
+}
+
+.wtachdog-name{
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-size: 50px;
+    margin: 150px 15px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    color: #1c5d3b;
+}
+
+
+.app-qrcode{
+	width: 90%;
+    margin: 10px;
+}
+
+
